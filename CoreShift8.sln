@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16B81139-D8B0-4B67-ABD3-CCA63B7A5B5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreShift8.UI", "CoreShift8.UI", "{65AA01C8-D6B3-4F14-981F-A94A3A74E26C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreShift8.UI", "src\CoreShift8.UI\CoreShift8.UI\CoreShift8.UI.csproj", "{11A5C177-E815-4412-AD97-51C4CDC27CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreShift8.Core", "src\CoreShift8.Core\CoreShift8.Core.csproj", "{E364937E-34DB-4500-9490-DF549AC59C30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreShift8.Scanner", "src\CoreShift8.Scanner\CoreShift8.Scanner.csproj", "{6B58FA3B-BB2A-492F-9576-708E8D825F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreShift8.Migration", "src\CoreShift8.Migration\CoreShift8.Migration.csproj", "{67026E79-BAE9-449D-B8ED-114632BA9540}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11A5C177-E815-4412-AD97-51C4CDC27CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A5C177-E815-4412-AD97-51C4CDC27CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A5C177-E815-4412-AD97-51C4CDC27CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A5C177-E815-4412-AD97-51C4CDC27CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E364937E-34DB-4500-9490-DF549AC59C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E364937E-34DB-4500-9490-DF549AC59C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E364937E-34DB-4500-9490-DF549AC59C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E364937E-34DB-4500-9490-DF549AC59C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B58FA3B-BB2A-492F-9576-708E8D825F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B58FA3B-BB2A-492F-9576-708E8D825F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B58FA3B-BB2A-492F-9576-708E8D825F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B58FA3B-BB2A-492F-9576-708E8D825F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67026E79-BAE9-449D-B8ED-114632BA9540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67026E79-BAE9-449D-B8ED-114632BA9540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67026E79-BAE9-449D-B8ED-114632BA9540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67026E79-BAE9-449D-B8ED-114632BA9540}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65AA01C8-D6B3-4F14-981F-A94A3A74E26C} = {16B81139-D8B0-4B67-ABD3-CCA63B7A5B5C}
+		{11A5C177-E815-4412-AD97-51C4CDC27CEC} = {65AA01C8-D6B3-4F14-981F-A94A3A74E26C}
+		{E364937E-34DB-4500-9490-DF549AC59C30} = {16B81139-D8B0-4B67-ABD3-CCA63B7A5B5C}
+		{6B58FA3B-BB2A-492F-9576-708E8D825F6D} = {16B81139-D8B0-4B67-ABD3-CCA63B7A5B5C}
+		{67026E79-BAE9-449D-B8ED-114632BA9540} = {16B81139-D8B0-4B67-ABD3-CCA63B7A5B5C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+╔══════════════════════════════════════════════════════════════╗
+║                        CoreShift8                           ║
+║       .NET Framework to .NET 8 Migration Tool             ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+🔍 Scanning solution: samples/LegacySample/LegacySample.sln
+Please wait...
+
+📊 SCAN RESULTS
+================
+Solution: samples/LegacySample/LegacySample.sln
+Scan Time: 2025-09-15 04:03:07 UTC
+
+🏗️  Legacy Projects Found (3):
+  • LegacyWebApp
+    Framework: v4.7.2
+    Type: ClassLibrary
+    EF6: Yes
+    packages.config: Yes
+    Config files: Web.config, packages.config
+
+  • LegacyClassLibrary
+    Framework: v4.7.2
+    Type: ClassLibrary
+    EF6: Yes
+    packages.config: Yes
+    Config files: App.config, packages.config
+
+  • LegacyConsoleApp
+    Framework: v4.6.1
+    Type: ConsoleApp
+    EF6: No
+    packages.config: No
+    Config files: App.config
+

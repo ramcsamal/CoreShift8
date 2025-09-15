@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../CoreShift8.Core/CoreShift8.Core.csproj" />
+    <ProjectReference Include="../../CoreShift8.Scanner/CoreShift8.Scanner.csproj" />
+    <ProjectReference Include="../../CoreShift8.Migration/CoreShift8.Migration.csproj" />
+  </ItemGroup>
+
+</Project>
